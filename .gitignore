@@ -1,0 +1,52 @@
+# Java / Eclipse - Hotel Management System
+# Keep src/, the Eclipse project setup, demo data, and runtime libraries.
+
+# Compiled Java bytecode and build output
+*.class
+*.class~
+*.ctxt
+bin/
+build/
+out/
+target/
+.gradle/
+
+# Generated distributables (not the third-party JARs in mig/ and xChart/)
+*.war
+*.ear
+*.nar
+*.zip
+*.tar
+*.tar.gz
+
+# IntelliJ IDEA / VS Code local settings
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Eclipse workspace files (DO NOT ignore .project, .classpath or .settings/)
+.metadata/
+.recommenders/
+*.launch
+
+# OS, editor and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+hs_err_pid*
+replay_pid*
+
+# Duplicate data directory left from running with a different working directory.
+**/datoteke/datoteke/
+
+# Optional documentation/source archives of MigLayout; runtime JARs stay tracked.
+**/mig/*-sources.jar
+**/mig/*-javadoc.jar
